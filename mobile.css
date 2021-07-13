@@ -1,0 +1,12 @@
+@media only screen and (max-width:668px) {
+    
+        .content{
+            align-items: center;
+
+        }
+        .container{
+            grid-template-rows: repeat(1,1fr);
+        }
+    
+    
+}

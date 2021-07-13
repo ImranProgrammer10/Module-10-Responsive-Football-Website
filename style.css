@@ -55,3 +55,38 @@ section{
         color: white;
         border-radius: 10px;
 }
+
+    /* gallery-card design starts here */
+
+    .container{
+        width: 870px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+
+    }
+    .container .box{
+        position: relative;
+        height: 474px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+
+    }
+    .container .box .imgbox{
+        box-sizing: border-box;
+        width: 100%;
+        height: 50%;
+    }
+    .container .box .imgbox img{
+        box-sizing: border-box;
+        padding: 15px;
+        width: 100%;
+        height: 100%;
+         
+    }
+    .card-detail{
+        margin-left: 15px;
+    }
+    .player-info{
+        font-weight: lighter;
+    }
