@@ -60,6 +60,10 @@ section{
         color: white;
         border-radius: 10px;
 }
+.link-button:hover{
+    color: yellow;
+    background: rgb(192, 14, 44);
+}
       /* animation part design starts here */
 
       .content:hover .banner-box{
@@ -142,6 +146,7 @@ section{
     }
     .textbox-two p{
         color: gray;
+        width: 400px;
     }
    .button{
        margin-top: 40px;
@@ -199,3 +204,5 @@ section{
         text-align: center;
         font-size: small;
     }
+
+    /* last part design ends here */
