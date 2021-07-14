@@ -31,6 +31,10 @@ section{
     justify-content: space-between;
     align-items: center;
 }
+.card-detail p{
+    color: gray;
+    font-size:medium;
+}
 .content .textbox{
     
     font-size: 30px;
@@ -55,7 +59,13 @@ section{
         color: white;
         border-radius: 10px;
 }
+      /* animation part design starts here */
 
+      .content:hover .banner-box{
+          transform: scale(1.3);
+          transition: transform 2s ease-in-out;
+      }
+     
     /* gallery-card design starts here */
 
     .container{
@@ -89,4 +99,49 @@ section{
     }
     .player-info{
         font-weight: lighter;
+    }
+
+
+    /* video part design starts here */
+
+    .videos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+        
+    }
+    .video{
+        margin: 10px;
+    }
+    .videos-gallery{
+        width: 870px;
+    }
+    .section-title{
+        text-align: center;
+    }
+
+    /* video part design ends here */
+
+    /* last part design starts here */
+
+    .last-part{
+        box-sizing: border-box;
+         
+    }
+    .football-logo .football-img img{
+        width: 300px;
+        height: 70px;
+    }
+
+    .social-sign{
+        text-align: center;
+        margin-bottom: 15px;
+        
+    }
+    #sign{
+        margin: 10px;
+    }
+    footer{
+        text-align: center;
     }
