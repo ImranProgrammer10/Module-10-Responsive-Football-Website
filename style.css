@@ -11,8 +11,9 @@ main{
     align-items: center;
 }
 section{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
+
 .container-box{
     position: relative;
     width: 100%;
@@ -119,9 +120,61 @@ section{
     }
     .section-title{
         text-align: center;
+        margin-bottom: 40px;
     }
 
     /* video part design ends here */
+
+
+
+    /* all-highlights part start here */
+
+
+    .all-highlights{
+        width: 870px;
+    }
+    .content-two{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .textbox-two p{
+        color: gray;
+    }
+   .button{
+       margin-top: 40px;
+   }
+    
+    
+    .banner-box-two img{
+        width: 420px;
+        height: 300px;
+    }
+    .all-details{
+        display: flex;
+    }
+
+      /* all-highlights part end here */
+
+
+
+
+
+
+     /* official-partner design part starts here */
+
+
+
+     .brands{
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 80px;
+     }
+
+
+
 
     /* last part design starts here */
 
@@ -144,4 +197,5 @@ section{
     }
     footer{
         text-align: center;
+        font-size: small;
     }
